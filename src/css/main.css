@@ -5,6 +5,8 @@
   --dark-color: rgb(17, 17, 17);
   --light-color: rgb(221, 217, 217);
   --contrast-dark-color: rgb(197, 197, 8);
+  --dark-color-high-opacity: rgba(17, 17, 17, 0.9);
+  --dark-color-low-opacity: rgba(17, 17, 17, 0.3);
 }
 
 * {
@@ -45,6 +47,7 @@ footer {
   width: 100%;
   margin: 0 auto;
   padding: 1rem;
+  max-width: var(--max-width);
 }
 
 .book-appointment {
@@ -53,14 +56,14 @@ footer {
 
 /* header */
 header {
-  max-width: var(--max-width);
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
 
 .menu-list {
-  padding: 0;
+  background-color: var(--dark-color-low-opacity);
+  padding: 5px 0 5px 0;
   display: flex;
   flex-direction: row;
   list-style: none;
@@ -80,7 +83,6 @@ header {
 
 /* article */
 article {
-  max-width: var(--max-width);
   flex-grow: 1;
   display: flex;
   flex-direction: column;
@@ -92,4 +94,37 @@ article {
 .subclaim {
   color: var(--dark-color);
   background-color: var(--contrast-dark-color);
+}
+
+/* footer */
+.footer-wrapper {
+  background-color: var(--dark-color-high-opacity);
+  color: var(--light-color);
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-widget {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 6px;
+}
+
+.footer-widget h3 {
+  color: var(--accent-color);
+  margin: 0 0 1rem 0;
+}
+
+.footer-widget p {
+  margin: 0 0 1rem 0;
+}
+
+.footer-widget__phones {
+  display: flex;
+  flex-direction: column;
 }
