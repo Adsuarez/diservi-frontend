@@ -8,6 +8,7 @@
   --contrast-dark-color-low-opacity: rgba(197, 197, 8, 0.3);
   --dark-color-high-opacity: rgba(17, 17, 17, 0.9);
   --dark-color-low-opacity: rgba(17, 17, 17, 0.3);
+  --height-images-services: 300px;
 }
 
 * {
@@ -77,7 +78,6 @@ header {
 
 .logo {
   display: none;
-  /* Pending show logo width media query*/
 }
 
 .logo img {
@@ -130,12 +130,26 @@ article {
 .claim,
 .subclaim {
   color: var(--dark-color);
-  background-color: var(--contrast-dark-color-high-opacity);
+  background-color: rgba(133, 132, 132, 0.8);
 }
 
 #page-welcome {
-  margin-top: 100px;
+  margin-top: 60px;
 }
+
+.services-painting {
+  list-style: none;
+  padding: 0;
+}
+
+.services-painting__item {
+  height: var(--height-images-services);
+  background-image: url(../multimedia/painting/pexels-digital-buggu-191648.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
 /* Responsive stuff */
 @media screen and (min-width: 620px) {
   footer {
