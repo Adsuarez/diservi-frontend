@@ -181,10 +181,11 @@ article {
 
 .services-painting__item {
   height: var(--height-images-services);
-  background-image: url(../../multimedia/painting/pexels-digital-buggu-191648.jpg);
+  background-image: url(../../multimedia/painting/montacargas-despues-01.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
+  transition: background-image 0.7s ease-in-out;
 }
 
 /* Responsive stuff */
