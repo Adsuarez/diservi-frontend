@@ -137,9 +137,10 @@ article {
   color: var(--light-color);
 }
 
-.services-titles__group {
+.services {
   text-align: center;
   margin: 20px 0;
+  padding: 0;
 }
 
 .services-title {
@@ -172,11 +173,6 @@ article {
 /*----->Welcome page<-----*/
 #page-welcome {
   margin-top: 60px;
-}
-
-.services-painting {
-  list-style: none;
-  padding: 0;
 }
 
 .services-painting__item {
