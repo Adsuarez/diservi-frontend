@@ -128,7 +128,6 @@ article {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  position: relative;
   background-color: var(--dark-color-high-opacity);
 }
 
@@ -137,6 +136,12 @@ article {
   color: var(--light-color);
 }
 
+/*----->Welcome page<-----*/
+#page-welcome {
+  margin-top: 60px;
+}
+
+/*----------->Services<------------*/
 .services {
   text-align: center;
   margin: 20px 0;
@@ -170,9 +175,10 @@ article {
 .nextSlide {
   right: 0.5rem;
 }
-/*----->Welcome page<-----*/
-#page-welcome {
-  margin-top: 60px;
+
+/*-------------------->PAINTING<-------------------*/
+.services-painting {
+  position: relative;
 }
 
 .services-painting__item {
@@ -182,6 +188,22 @@ article {
   background-position: center;
   background-size: contain;
   transition: background-image 0.7s ease-in-out;
+  margin: 10px;
+}
+
+/*-------------------->SOLDERING<-------------------*/
+.services-soldering {
+  position: relative;
+}
+
+.services-soldering__item {
+  height: var(--height-images-services);
+  background-image: url(../../multimedia/soldering/pexels-pixabay-73833.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  transition: background-image 0.7s ease-in-out;
+  margin: 10px;
 }
 
 /* Responsive stuff */
