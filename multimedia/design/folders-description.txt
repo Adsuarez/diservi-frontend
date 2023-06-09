@@ -1,0 +1,4 @@
+a = Diseño y levantamiento de estructuras
+b = Diseño y levantamiento de piezas mecanicas y mejoras
+c = Diseño y levantamiento planos para proyetos
+d = Levantamiento de diagramas P_ID
