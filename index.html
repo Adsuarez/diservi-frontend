@@ -9,7 +9,10 @@
       src="https://kit.fontawesome.com/41492ee37e.js"
       crossorigin="anonymous"
     ></script>
-    <script src="src/js/main.js" defer></script>
+    <script type="module" src="src/js/main.js" defer></script>
+    <script type="module" src="src/js/helpers.js" defer></script>
+    <script type="module" src="src/js/constants.js" defer></script>
+    <script type="module" src="src/js/paintingValues.js" defer></script>
     <title>diservi</title>
   </head>
   <body>
@@ -44,25 +47,31 @@
           <h1 class="claim">DISEÑOS Y SERVICIOS INDUSTRIALES</h1>
           <h2 class="subclaim">Tu empresa nos necesita...</h2>
           <a href="#" class="book-appointment">Agenda tu cita</a>
-          <div class="services">
+          <ul class="services">
             <h2 class="services-title">SERVICIOS</h2>
-            <a class="slideButton nextSlide"
-              ><i class="fa-solid fa-chevron-right">P</i></a
-            >
-            <a class="slideButton prevSlide"
-              ><i class="fa-solid fa-chevron-left">N</i></a
-            >
-            <ul class="services-categories">
-              <li class="services-painting__item">
-                <h3 class="services-subtitle">PINTURA</h3>
-                <!-- <div class="services-painting__item"></div> -->
-              </li>
-              <li class="services-design">
-                <h3 class="services-subtitle">DISEÑO</h3>
-                <!-- <div class="services-design__item"></div> -->
-              </li>
-            </ul>
-          </div>
+
+            <li class="services-painting">
+              <h3 class="services-subtitle">PINTURA</h3>
+              <a id="next-slide-painting" class="slideButton nextSlide"
+                ><i class="fa-solid fa-chevron-right"></i
+              ></a>
+              <a class="slideButton prevSlide" id="prev-slide-painting"
+                ><i class="fa-solid fa-chevron-left"></i
+              ></a>
+              <div class="services-painting__item"></div>
+            </li>
+
+            <li class="services-soldering">
+              <h3 class="services-subtitle">SOLDADURA</h3>
+              <a id="next-slide-soldering" class="slideButton nextSlide"
+                ><i class="fa-solid fa-chevron-right"></i
+              ></a>
+              <a id="prev-slide-soldering" class="slideButton prevSlide"
+                ><i class="fa-solid fa-chevron-left"></i
+              ></a>
+              <div class="services-soldering__item"></div>
+            </li>
+          </ul>
         </section>
         <section id="page-about">
           <h1 class="claim">¿Quiénes somos?</h1>
