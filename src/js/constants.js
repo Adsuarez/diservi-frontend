@@ -3,6 +3,7 @@ export const $ = (element) => document.querySelector(element);
 export const URLS_MULTIMEDIA = {
   painting: "../../multimedia/painting/",
   soldering: "../../multimedia/soldering/",
+  design_a: "../../multimedia/design/a/",
 };
 
 export const multimedia = [
@@ -21,6 +22,19 @@ export const multimedia = [
     images: [
       `${URLS_MULTIMEDIA.soldering}pexels-pixabay-73833.jpg`,
       `${URLS_MULTIMEDIA.soldering}cual-es-la-lamina-mas-barata-para-techar.jpg`,
+    ],
+  },
+  {
+    group: "design-a",
+    images: [
+      `${URLS_MULTIMEDIA.design_a}1.png`,
+      `${URLS_MULTIMEDIA.design_a}2.png`,
+      `${URLS_MULTIMEDIA.design_a}3.png`,
+      `${URLS_MULTIMEDIA.design_a}4.png`,
+      `${URLS_MULTIMEDIA.design_a}5.png`,
+      `${URLS_MULTIMEDIA.design_a}6.png`,
+      `${URLS_MULTIMEDIA.design_a}7.png`,
+      `${URLS_MULTIMEDIA.design_a}8.png`,
     ],
   },
 ];
