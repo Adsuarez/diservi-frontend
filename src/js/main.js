@@ -13,16 +13,37 @@ import {
   servicesPaintingItem,
 } from "./paintingValues.js";
 
-export let paintinIndex = 0;
+import {
+  nextSlideButtonSoldering,
+  prevSlideButtonSoldering,
+  servicesSolderingItem,
+  solderingImages,
+  solderingMaxIndex,
+} from "./solderingValues.js";
+
+let paintingIndex = 0;
+let solderingIndex = 0;
 
 prevSlideButtonPainting.addEventListener("click", () => {
-  paintinIndex = prevIndex(paintinIndex);
-  paintinIndex = setImageIndex(paintinIndex, paintingMaxIndex);
-  changeBackgroundImage(paintingImages[paintinIndex], servicesPaintingItem);
+  paintingIndex = prevIndex(paintingIndex);
+  paintingIndex = setImageIndex(paintingIndex, paintingMaxIndex);
+  changeBackgroundImage(paintingImages[paintingIndex], servicesPaintingItem);
 });
 
 nextSlideButtonPainting.addEventListener("click", () => {
-  paintinIndex = nextIndex(paintinIndex);
-  paintinIndex = setImageIndex(paintinIndex, paintingMaxIndex);
-  changeBackgroundImage(paintingImages[paintinIndex], servicesPaintingItem);
+  paintingIndex = nextIndex(paintingIndex);
+  paintingIndex = setImageIndex(paintingIndex, paintingMaxIndex);
+  changeBackgroundImage(paintingImages[paintingIndex], servicesPaintingItem);
+});
+
+prevSlideButtonSoldering.addEventListener("click", () => {
+  solderingIndex = prevIndex(solderingIndex);
+  solderingIndex = setImageIndex(solderingIndex, solderingMaxIndex);
+  changeBackgroundImage(solderingImages[solderingIndex], servicesSolderingItem);
+});
+
+nextSlideButtonSoldering.addEventListener("click", () => {
+  solderingIndex = nextIndex(solderingIndex);
+  solderingIndex = setImageIndex(solderingIndex, solderingMaxIndex);
+  changeBackgroundImage(solderingImages[solderingIndex], servicesSolderingItem);
 });
