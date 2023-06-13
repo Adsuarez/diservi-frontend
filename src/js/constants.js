@@ -4,6 +4,7 @@ export const URLS_MULTIMEDIA = {
   painting: "../../multimedia/painting/",
   soldering: "../../multimedia/soldering/",
   design_a: "../../multimedia/design/a/",
+  design_b: "../../multimedia/design/b/",
 };
 
 export const multimedia = [
@@ -35,6 +36,20 @@ export const multimedia = [
       `${URLS_MULTIMEDIA.design_a}6.png`,
       `${URLS_MULTIMEDIA.design_a}7.png`,
       `${URLS_MULTIMEDIA.design_a}8.png`,
+    ],
+  },
+  {
+    group: "design-b",
+    images: [
+      `${URLS_MULTIMEDIA.design_b}1.png`,
+      `${URLS_MULTIMEDIA.design_b}2.jpg`,
+      `${URLS_MULTIMEDIA.design_b}3.jpg`,
+      `${URLS_MULTIMEDIA.design_b}4.jpg`,
+      `${URLS_MULTIMEDIA.design_b}5.png`,
+      `${URLS_MULTIMEDIA.design_b}6.jpg`,
+      `${URLS_MULTIMEDIA.design_b}7.jpg`,
+      `${URLS_MULTIMEDIA.design_b}8.jpg`,
+      `${URLS_MULTIMEDIA.design_b}9.jpg`,
     ],
   },
 ];
