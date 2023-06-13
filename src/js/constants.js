@@ -5,6 +5,7 @@ export const URLS_MULTIMEDIA = {
   soldering: "../../multimedia/soldering/",
   design_a: "../../multimedia/design/a/",
   design_b: "../../multimedia/design/b/",
+  design_c: "../../multimedia/design/c/",
 };
 
 export const multimedia = [
@@ -50,6 +51,26 @@ export const multimedia = [
       `${URLS_MULTIMEDIA.design_b}7.jpg`,
       `${URLS_MULTIMEDIA.design_b}8.jpg`,
       `${URLS_MULTIMEDIA.design_b}9.jpg`,
+    ],
+  },
+  {
+    group: "design-c",
+    images: [
+      `${URLS_MULTIMEDIA.design_c}1.jpg`,
+      `${URLS_MULTIMEDIA.design_c}2.jpg`,
+      `${URLS_MULTIMEDIA.design_c}3.jpg`,
+      `${URLS_MULTIMEDIA.design_c}4.png`,
+      `${URLS_MULTIMEDIA.design_c}5.png`,
+      `${URLS_MULTIMEDIA.design_c}6.png`,
+      `${URLS_MULTIMEDIA.design_c}7.png`,
+      `${URLS_MULTIMEDIA.design_c}8.png`,
+      `${URLS_MULTIMEDIA.design_c}9.png`,
+      `${URLS_MULTIMEDIA.design_c}10.png`,
+      `${URLS_MULTIMEDIA.design_c}11.png`,
+      `${URLS_MULTIMEDIA.design_c}12.png`,
+      `${URLS_MULTIMEDIA.design_c}13.png`,
+      `${URLS_MULTIMEDIA.design_c}14.png`,
+      `${URLS_MULTIMEDIA.design_c}15.png`,
     ],
   },
 ];
