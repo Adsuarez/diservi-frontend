@@ -236,6 +236,21 @@ article {
   margin: 10px;
 }
 
+/*-------------------->DESIGN B<-------------------*/
+.services-design-c {
+  position: relative;
+}
+
+.services-design-c__item {
+  height: var(--height-images-services);
+  background-image: url(../../multimedia/design/c/1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  transition: background-image 0.7s ease-in-out;
+  margin: 10px;
+}
+
 /* Responsive stuff */
 @media screen and (min-width: 620px) {
   footer {
