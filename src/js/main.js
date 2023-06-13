@@ -29,6 +29,14 @@ import {
   designAMaxIndex,
 } from "./design_aValues.js";
 
+import {
+  nextSlideButtonDesignB,
+  prevSlideButtonDesignB,
+  servicesDesignBItem,
+  designBImages,
+  designBMaxIndex,
+} from "./design_bValues.js";
+
 /*PAINTING SERVICE*/
 let paintingIndex = 0;
 
@@ -72,4 +80,19 @@ nextSlideButtonDesignA.addEventListener("click", () => {
   designAIndex = nextIndex(designAIndex);
   designAIndex = setImageIndex(designAIndex, designAMaxIndex);
   changeBackgroundImage(designAImages[designAIndex], servicesDesignAItem);
+});
+
+/*DESIGN B SERVICE */
+let designBIndex = 0;
+
+prevSlideButtonDesignB.addEventListener("click", () => {
+  designBIndex = prevIndex(designBIndex);
+  designBIndex = setImageIndex(designBIndex, designBMaxIndex);
+  changeBackgroundImage(designBImages[designBIndex], servicesDesignBItem);
+});
+
+nextSlideButtonDesignB.addEventListener("click", () => {
+  designBIndex = nextIndex(designBIndex);
+  designBIndex = setImageIndex(designBIndex, designBMaxIndex);
+  changeBackgroundImage(designBImages[designBIndex], servicesDesignBItem);
 });
