@@ -6,6 +6,7 @@ export const URLS_MULTIMEDIA = {
   design_a: "../../multimedia/design/a/",
   design_b: "../../multimedia/design/b/",
   design_c: "../../multimedia/design/c/",
+  design_d: "../../multimedia/design/d/",
 };
 
 export const multimedia = [
@@ -71,6 +72,17 @@ export const multimedia = [
       `${URLS_MULTIMEDIA.design_c}13.png`,
       `${URLS_MULTIMEDIA.design_c}14.png`,
       `${URLS_MULTIMEDIA.design_c}15.png`,
+    ],
+  },
+  {
+    group: "design-d",
+    images: [
+      `${URLS_MULTIMEDIA.design_d}1.jpg`,
+      `${URLS_MULTIMEDIA.design_d}2.jpg`,
+      `${URLS_MULTIMEDIA.design_d}3.jpg`,
+      `${URLS_MULTIMEDIA.design_d}4.jpg`,
+      `${URLS_MULTIMEDIA.design_d}5.jpg`,
+      `${URLS_MULTIMEDIA.design_d}6.jpg`,
     ],
   },
 ];
