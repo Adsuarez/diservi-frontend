@@ -22,6 +22,14 @@ import {
 } from "./solderingValues.js";
 
 import {
+  nextSlideButtonWaterproofing,
+  prevSlideButtonWaterproofing,
+  servicesWaterproofingItem,
+  waterproofingImages,
+  waterproofingMaxIndex,
+} from "./waterproofingValues.js";
+
+import {
   nextSlideButtonDesignA,
   prevSlideButtonDesignA,
   servicesDesignAItem,
@@ -81,6 +89,27 @@ nextSlideButtonSoldering.addEventListener("click", () => {
   solderingIndex = nextIndex(solderingIndex);
   solderingIndex = setImageIndex(solderingIndex, solderingMaxIndex);
   changeBackgroundImage(solderingImages[solderingIndex], servicesSolderingItem);
+});
+
+/*WATERPROOFING SERVICE */
+let waterproofingIndex = 0;
+
+prevSlideButtonWaterproofing.addEventListener("click", () => {
+  waterproofingIndex = prevIndex(waterproofingIndex);
+  waterproofingIndex = setImageIndex(waterproofingIndex, waterproofingMaxIndex);
+  changeBackgroundImage(
+    waterproofingImages[waterproofingIndex],
+    servicesWaterproofingItem
+  );
+});
+
+nextSlideButtonWaterproofing.addEventListener("click", () => {
+  waterproofingIndex = nextIndex(waterproofingIndex);
+  waterproofingIndex = setImageIndex(waterproofingIndex, waterproofingMaxIndex);
+  changeBackgroundImage(
+    waterproofingImages[waterproofingIndex],
+    servicesWaterproofingItem
+  );
 });
 
 /*DESIGN A SERVICE */
