@@ -30,6 +30,14 @@ import {
 } from "./waterproofingValues.js";
 
 import {
+  nextSlideButtonCleaning,
+  prevSlideButtonCleaning,
+  servicesCleaningItem,
+  cleaningImages,
+  cleaningMaxIndex,
+} from "./cleaningValues.js";
+
+import {
   nextSlideButtonDesignA,
   prevSlideButtonDesignA,
   servicesDesignAItem,
@@ -110,6 +118,21 @@ nextSlideButtonWaterproofing.addEventListener("click", () => {
     waterproofingImages[waterproofingIndex],
     servicesWaterproofingItem
   );
+});
+
+/*CLEANING SERVICE */
+let cleaningIndex = 0;
+
+prevSlideButtonCleaning.addEventListener("click", () => {
+  cleaningIndex = prevIndex(cleaningIndex);
+  cleaningIndex = setImageIndex(cleaningIndex, cleaningMaxIndex);
+  changeBackgroundImage(cleaningImages[cleaningIndex], servicesCleaningItem);
+});
+
+nextSlideButtonCleaning.addEventListener("click", () => {
+  cleaningIndex = nextIndex(cleaningIndex);
+  cleaningIndex = setImageIndex(cleaningIndex, cleaningMaxIndex);
+  changeBackgroundImage(cleaningImages[cleaningIndex], servicesCleaningItem);
 });
 
 /*DESIGN A SERVICE */
