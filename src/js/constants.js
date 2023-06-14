@@ -4,6 +4,7 @@ export const URLS_MULTIMEDIA = {
   painting: "../../multimedia/painting/",
   soldering: "../../multimedia/soldering/",
   waterproofing: "../../multimedia/waterproofing/",
+  cleaning: "../../multimedia/cleaning/",
   design_a: "../../multimedia/design/a/",
   design_b: "../../multimedia/design/b/",
   design_c: "../../multimedia/design/c/",
@@ -33,6 +34,14 @@ export const multimedia = [
     images: [
       `${URLS_MULTIMEDIA.waterproofing}1.jpg`,
       `${URLS_MULTIMEDIA.waterproofing}2.jpg`,
+    ],
+  },
+  {
+    group: "cleaning",
+    images: [
+      `${URLS_MULTIMEDIA.cleaning}1.webp`,
+      `${URLS_MULTIMEDIA.cleaning}2.jpg`,
+      `${URLS_MULTIMEDIA.cleaning}3.jpg`,
     ],
   },
   {
