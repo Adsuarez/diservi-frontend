@@ -11,6 +11,7 @@
   --dark-color-low-opacity: rgba(17, 17, 17, 0.3);
   --color-second: rgb(3, 83, 151);
   --color-second-low-opacity: rgba(3, 83, 151, 0.2);
+  --color-second-high-opacity: rgba(3, 83, 151, 0.8);
   --color-first: rgb(0, 30, 108);
 }
 
@@ -46,7 +47,6 @@ main {
   background-size: cover;
 }
 
-header,
 article,
 footer {
   width: 100%;
@@ -66,10 +66,12 @@ header {
   flex-direction: row;
   justify-content: space-around;
   z-index: 1;
+  padding: 0;
+  margin: 0;
 }
 
 .menu-list {
-  background-color: var(--color-second-low-opacity);
+  background-color: var(--color-second-high-opacity);
   backdrop-filter: blur(5px);
   padding: 5px 0 5px 0;
   display: flex;
@@ -78,6 +80,7 @@ header {
   gap: 10px;
   text-align: center;
   align-items: center;
+  margin: 0;
 }
 
 .logo {
@@ -141,7 +144,7 @@ article {
   margin-top: 60px;
 }
 
-/*----------->Services<------------*/
+/*----------->SERVICES<------------*/
 .services {
   text-align: center;
   margin: 20px 0;
