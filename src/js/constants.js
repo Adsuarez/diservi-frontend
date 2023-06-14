@@ -24,8 +24,8 @@ export const multimedia = [
   {
     group: "soldering",
     images: [
-      `${URLS_MULTIMEDIA.soldering}pexels-pixabay-73833.jpg`,
-      `${URLS_MULTIMEDIA.soldering}cual-es-la-lamina-mas-barata-para-techar.jpg`,
+      `${URLS_MULTIMEDIA.soldering}1.jpg`,
+      `${URLS_MULTIMEDIA.soldering}2.jpg`,
     ],
   },
   {
