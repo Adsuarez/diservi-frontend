@@ -221,6 +221,21 @@ article {
   margin: 10px;
 }
 
+/*-------------------->CLEANING<-------------------*/
+.services-cleaning {
+  position: relative;
+}
+
+.services-cleaning__item {
+  height: var(--height-images-services);
+  background-image: url(../../multimedia/cleaning/1.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  transition: background-image 0.7s ease-in-out;
+  margin: 10px;
+}
+
 /*-------------------->DESIGN A<-------------------*/
 .services-design-a {
   position: relative;
