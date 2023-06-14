@@ -1,5 +1,6 @@
 ❌ => Pending to solve
+✅ => Complete
 
-- ❌ NavBar non separate from top
+- ✅ NavBar non separate from top
 - ❌ Create hamburguer to access NavBar
 - ❌ Change contrast about orange and white and others
