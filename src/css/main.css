@@ -236,7 +236,7 @@ article {
   margin: 10px;
 }
 
-/*-------------------->DESIGN B<-------------------*/
+/*-------------------->DESIGN C<-------------------*/
 .services-design-c {
   position: relative;
 }
@@ -244,6 +244,21 @@ article {
 .services-design-c__item {
   height: var(--height-images-services);
   background-image: url(../../multimedia/design/c/1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  transition: background-image 0.7s ease-in-out;
+  margin: 10px;
+}
+
+/*-------------------->DESIGN D<-------------------*/
+.services-design-d {
+  position: relative;
+}
+
+.services-design-d__item {
+  height: var(--height-images-services);
+  background-image: url(../../multimedia/design/d/1.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
