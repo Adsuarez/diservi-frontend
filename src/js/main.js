@@ -45,6 +45,14 @@ import {
   designCMaxIndex,
 } from "./design_cValues.js";
 
+import {
+  nextSlideButtonDesignD,
+  prevSlideButtonDesignD,
+  servicesDesignDItem,
+  designDImages,
+  designDMaxIndex,
+} from "./design_dValues.js";
+
 /*PAINTING SERVICE*/
 let paintingIndex = 0;
 
@@ -118,4 +126,19 @@ nextSlideButtonDesignC.addEventListener("click", () => {
   designCIndex = nextIndex(designCIndex);
   designCIndex = setImageIndex(designCIndex, designCMaxIndex);
   changeBackgroundImage(designCImages[designCIndex], servicesDesignCItem);
+});
+
+/*DESIGN C SERVICE */
+let designDIndex = 0;
+
+prevSlideButtonDesignD.addEventListener("click", () => {
+  designDIndex = prevIndex(designDIndex);
+  designDIndex = setImageIndex(designDIndex, designDMaxIndex);
+  changeBackgroundImage(designDImages[designDIndex], servicesDesignDItem);
+});
+
+nextSlideButtonDesignD.addEventListener("click", () => {
+  designDIndex = nextIndex(designDIndex);
+  designDIndex = setImageIndex(designDIndex, designDMaxIndex);
+  changeBackgroundImage(designDImages[designDIndex], servicesDesignDItem);
 });
