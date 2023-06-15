@@ -37,11 +37,10 @@ a {
 
 /* main */
 main {
-  height: 100vh;
   display: flex;
   flex-direction: column;
   min-width: var(--min-width);
-  background-image: url(../../multimedia/background/1.jpg);
+  background-image: url(../../multimedia/background/2.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -94,12 +93,13 @@ header {
 /* footer */
 .footer-wrapper {
   background-color: var(--dark-color-high-opacity);
-  color: var(--light-color);
 }
 
 footer {
   display: flex;
   flex-direction: column;
+  background-color: var(--dark-color-high-opacity);
+  color: var(--light-color);
 }
 
 .footer-widget {
