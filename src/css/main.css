@@ -54,12 +54,9 @@ footer {
   max-width: var(--max-width);
 }
 
-.book-appointment {
-  background-color: var(--accent-color);
-}
-
 /* header */
 header {
+  width: 100%;
   position: fixed;
   display: flex;
   flex-direction: row;
@@ -67,12 +64,12 @@ header {
   z-index: 1;
   padding: 0;
   margin: 0;
+  backdrop-filter: blur(5px);
 }
 
 .menu-list {
   background-color: var(--color-second-high-opacity);
-  backdrop-filter: blur(5px);
-  padding: 5px 0 5px 0;
+  padding: 10px;
   display: flex;
   flex-direction: row;
   list-style: none;
