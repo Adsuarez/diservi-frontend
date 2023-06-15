@@ -179,124 +179,57 @@ article {
   right: 0.01rem;
 }
 
-/*-------------------->PAINTING<-------------------*/
-.services-painting {
+.services-all {
   position: relative;
 }
 
-.services-painting__item {
+.services-all__item {
   height: var(--height-images-services);
-  background-image: url(../../multimedia/painting/1.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
   transition: background-image 0.7s ease-in-out;
   margin: 10px;
+}
+
+/*-------------------->PAINTING<-------------------*/
+.services-painting__item {
+  background-image: url(../../multimedia/painting/1.jpg);
 }
 
 /*-------------------->SOLDERING<-------------------*/
-.services-soldering {
-  position: relative;
-}
-
 .services-soldering__item {
-  height: var(--height-images-services);
   background-image: url(../../multimedia/soldering/1.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-  transition: background-image 0.7s ease-in-out;
-  margin: 10px;
 }
 
 /*-------------------->WATERPROOFING<-------------------*/
-.services-waterproofing {
-  position: relative;
-}
-
 .services-waterproofing__item {
-  height: var(--height-images-services);
   background-image: url(../../multimedia/waterproofing/1.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-  transition: background-image 0.7s ease-in-out;
-  margin: 10px;
 }
 
 /*-------------------->CLEANING<-------------------*/
-.services-cleaning {
-  position: relative;
-}
-
 .services-cleaning__item {
-  height: var(--height-images-services);
   background-image: url(../../multimedia/cleaning/1.webp);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-  transition: background-image 0.7s ease-in-out;
-  margin: 10px;
 }
 
 /*-------------------->DESIGN A<-------------------*/
-.services-design-a {
-  position: relative;
-}
-
 .services-design-a__item {
-  height: var(--height-images-services);
   background-image: url(../../multimedia/design/a/1.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-  transition: background-image 0.7s ease-in-out;
-  margin: 10px;
 }
 
 /*-------------------->DESIGN B<-------------------*/
-.services-design-b {
-  position: relative;
-}
-
 .services-design-b__item {
-  height: var(--height-images-services);
   background-image: url(../../multimedia/design/b/1.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-  transition: background-image 0.7s ease-in-out;
-  margin: 10px;
 }
 
 /*-------------------->DESIGN C<-------------------*/
-.services-design-c {
-  position: relative;
-}
-
 .services-design-c__item {
-  height: var(--height-images-services);
   background-image: url(../../multimedia/design/c/1.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-  transition: background-image 0.7s ease-in-out;
-  margin: 10px;
 }
 
 /*-------------------->DESIGN D<-------------------*/
-.services-design-d {
-  position: relative;
-}
-
 .services-design-d__item {
-  height: var(--height-images-services);
   background-image: url(../../multimedia/design/d/1.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-  transition: background-image 0.7s ease-in-out;
-  margin: 10px;
 }
 
 /* Responsive stuff */
