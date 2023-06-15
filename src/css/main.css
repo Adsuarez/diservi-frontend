@@ -2,17 +2,16 @@
   --max-width: 1280px;
   --min-width: 320px;
   --height-images-services: 300px;
-  --accent-color: rgb(232, 99, 10);
-  --dark-color: rgb(17, 17, 17);
-  --light-color: rgb(221, 217, 217);
-  --contrast-dark-color: rgb(252, 217, 0);
-  --contrast-dark-color-high-opacity: rgba(252, 217, 0, 0.9);
-  --dark-color-high-opacity: rgba(17, 17, 17, 0.9);
-  --dark-color-low-opacity: rgba(17, 17, 17, 0.3);
-  --color-second: rgb(3, 83, 151);
-  --color-second-low-opacity: rgba(3, 83, 151, 0.2);
-  --color-second-high-opacity: rgba(3, 83, 151, 0.8);
-  --color-first: rgb(0, 30, 108);
+  --accent-color: rgb(249, 109, 0);
+  --dark-color: rgb(34, 40, 49);
+  --light-color: rgb(242, 242, 242);
+  --contrast-dark-color: rgb(249, 109, 0);
+  --contrast-dark-color-high-opacity: rgba(249, 109, 0, 0.9);
+  --dark-color-high-opacity: rgba(34, 40, 49, 0.9);
+  --dark-color-low-opacity: rgb(34, 40, 49, 0.7);
+  --color-second: rgb(57, 62, 70);
+  --color-second-low-opacity: rgba(57, 62, 70, 0.5);
+  --color-second-high-opacity: rgb(57, 62, 70, 0.8);
 }
 
 * {
@@ -128,7 +127,7 @@ article {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  background-color: var(--dark-color-high-opacity);
+  background-color: var(--dark-color-low-opacity);
 }
 
 .claim,
@@ -146,6 +145,7 @@ article {
   text-align: center;
   margin: 20px 0;
   padding: 0;
+  list-style: none;
 }
 
 .services-title {
@@ -154,7 +154,7 @@ article {
 }
 
 .services-subtitle {
-  background-color: var(--color-second);
+  background-color: var(--dark-color);
   color: var(--contrast-dark-color);
   margin: 0;
 }
