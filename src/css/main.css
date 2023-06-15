@@ -41,7 +41,7 @@ main {
   display: flex;
   flex-direction: column;
   min-width: var(--min-width);
-  background-image: url(../../multimedia/pexels-pixabay-209251.jpg);
+  background-image: url(../../multimedia/background/1.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
