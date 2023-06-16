@@ -3,4 +3,6 @@
 
 - ✅ NavBar non separate from top
 - ❌ Create hamburguer to access NavBar
-- ❌ Change contrast about orange and white and others
+- ✅ Change contrast about orange and white and others
+- ❌ Show title ¿Quienes somos? when Click on About link 
+- ❌ Include tel and email type in contact page
