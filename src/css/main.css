@@ -238,6 +238,16 @@ article {
   background-image: url(../../multimedia/design/d/1.jpg);
 }
 
+/*----->About page<-----*/
+#page-about {
+  margin-top: 60px;
+}
+
+/*----->Prices page<-----*/
+#page-prices {
+  margin-top: 60px;
+}
+
 /* Responsive stuff */
 @media screen and (min-width: 620px) {
   footer {
