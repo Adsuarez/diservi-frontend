@@ -6,3 +6,5 @@
 - ✅ Change contrast about orange and white and others
 - ❌ Show title ¿Quienes somos? when Click on About link 
 - ❌ Include tel and email type in contact page
+- ❌ make Visible title on images slides
+- ❌ Optimize images
