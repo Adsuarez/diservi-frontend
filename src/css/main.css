@@ -130,7 +130,8 @@ article {
 }
 
 .claim,
-.subclaim {
+.subclaim,
+.service-description {
   color: var(--light-color);
 }
 
@@ -245,6 +246,16 @@ article {
   margin-top: 40px;
 }
 
+.service-description {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 15px;
+}
+.service-description__subdescription {
+  list-style: none;
+  padding: 0 0 0 10px;
+  margin: 10px 0 20px 0;
+}
 /*----->Prices page<-----*/
 #page-prices {
   margin-top: 20px;
