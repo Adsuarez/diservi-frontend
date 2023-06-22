@@ -140,6 +140,23 @@ article {
   font-size: x-large;
 }
 
+.title {
+  margin: 0 0 30px 0;
+  font-size: xx-large;
+  background-color: var(--contrast-dark-color-high-opacity);
+  color: var(--dark-color);
+  text-align: center;
+  padding: 10px;
+}
+
+.subtitle {
+  background-color: var(--dark-color);
+  font-size: x-large;
+  color: var(--accent-color);
+  padding: 5px 10px 5px 0;
+  display: inline;
+}
+
 /*----->Welcome page<-----*/
 #page-welcome {
   margin-top: 60px;
@@ -249,12 +266,17 @@ article {
 .service-description {
   list-style: none;
   padding: 0;
-  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
 }
-.service-description__subdescription {
-  list-style: none;
-  padding: 0 0 0 10px;
-  margin: 10px 0 20px 0;
+
+.service-description__text {
+  display: flex;
+  gap: 18px;
+}
+
+.service-subdescription {
+  margin-left: 40px;
 }
 /*----->Prices page<-----*/
 #page-prices {
