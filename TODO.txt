@@ -8,3 +8,5 @@
 - ❌ Include tel and email type in contact page
 - ❌ make Visible title on images slides
 - ❌ Optimize images
+- ❌ Agregar división entre los items del navbar para que no parezca un texto de corrido
+- ❌ a diseñador le llama más la atención el background azúl del navbar.
