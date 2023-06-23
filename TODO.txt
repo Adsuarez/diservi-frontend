@@ -1,12 +1,14 @@
 ❌ => Pending to solve
 ✅ => Complete
+🟢 => Task was unnecesary according to changes in process
 
 - ✅ NavBar non separate from top
-- ❌ Create hamburguer to access NavBar
+- 🟢 Create hamburguer to access NavBar
 - ✅ Change contrast about orange and white and others
-- ❌ Show title ¿Quienes somos? when Click on About link 
-- ❌ Include tel and email type in contact page
+- ✅ Show title ¿Quienes somos? when Click on About link 
+- ✅ Include tel and email type in contact page
 - ❌ make Visible title on images slides
+- ❌ Resize images
 - ❌ Optimize images
-- ❌ Agregar división entre los items del navbar para que no parezca un texto de corrido
-- ❌ a diseñador le llama más la atención el background azúl del navbar.
+- 🟢 add division on items in navbar because it looks like a text inline
+- 🟢 a designer friend prefer background blue on navbar
