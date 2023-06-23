@@ -39,7 +39,7 @@ export const multimedia = [
   {
     group: "cleaning",
     images: [
-      `${URLS_MULTIMEDIA.cleaning}1.webp`,
+      `${URLS_MULTIMEDIA.cleaning}1.png`,
       `${URLS_MULTIMEDIA.cleaning}2.jpg`,
       `${URLS_MULTIMEDIA.cleaning}3.jpg`,
     ],
@@ -47,20 +47,20 @@ export const multimedia = [
   {
     group: "design-a",
     images: [
-      `${URLS_MULTIMEDIA.design_a}1.png`,
-      `${URLS_MULTIMEDIA.design_a}2.png`,
-      `${URLS_MULTIMEDIA.design_a}3.png`,
-      `${URLS_MULTIMEDIA.design_a}4.png`,
-      `${URLS_MULTIMEDIA.design_a}5.png`,
-      `${URLS_MULTIMEDIA.design_a}6.png`,
-      `${URLS_MULTIMEDIA.design_a}7.png`,
-      `${URLS_MULTIMEDIA.design_a}8.png`,
+      `${URLS_MULTIMEDIA.design_a}1.jpg`,
+      `${URLS_MULTIMEDIA.design_a}2.jpg`,
+      `${URLS_MULTIMEDIA.design_a}3.jpg`,
+      `${URLS_MULTIMEDIA.design_a}4.jpg`,
+      `${URLS_MULTIMEDIA.design_a}5.jpg`,
+      `${URLS_MULTIMEDIA.design_a}6.jpg`,
+      `${URLS_MULTIMEDIA.design_a}7.jpg`,
+      `${URLS_MULTIMEDIA.design_a}8.jpg`,
     ],
   },
   {
     group: "design-b",
     images: [
-      `${URLS_MULTIMEDIA.design_b}1.png`,
+      `${URLS_MULTIMEDIA.design_b}1.jpg`,
       `${URLS_MULTIMEDIA.design_b}2.jpg`,
       `${URLS_MULTIMEDIA.design_b}3.jpg`,
       `${URLS_MULTIMEDIA.design_b}4.jpg`,
