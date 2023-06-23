@@ -112,6 +112,7 @@ footer {
   margin: 0 0 1rem 0;
 }
 
+.footer-widget a,
 .footer-widget p {
   margin: 0 0 1rem 0;
   text-align: end;
@@ -277,10 +278,6 @@ article {
 
 .service-subdescription {
   margin-left: 40px;
-}
-/*----->Prices page<-----*/
-#page-prices {
-  margin-top: 20px;
 }
 
 /* Responsive stuff */
