@@ -39,7 +39,7 @@ main {
   display: flex;
   flex-direction: column;
   min-width: var(--min-width);
-  background-image: url(../../multimedia/background/2.jpg);
+  background-image: url(../../multimedia/background/1.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -221,42 +221,42 @@ article {
 
 /*-------------------->PAINTING<-------------------*/
 .services-painting__item {
-  background-image: url(../../multimedia/painting/1.jpg);
+  background-image: url(../../multimedia/painting/1.webp);
 }
 
 /*-------------------->SOLDERING<-------------------*/
 .services-soldering__item {
-  background-image: url(../../multimedia/soldering/1.jpg);
+  background-image: url(../../multimedia/soldering/1.webp);
 }
 
 /*-------------------->WATERPROOFING<-------------------*/
 .services-waterproofing__item {
-  background-image: url(../../multimedia/waterproofing/1.jpg);
+  background-image: url(../../multimedia/waterproofing/1.webp);
 }
 
 /*-------------------->CLEANING<-------------------*/
 .services-cleaning__item {
-  background-image: url(../../multimedia/cleaning/1.png);
+  background-image: url(../../multimedia/cleaning/1.webp);
 }
 
 /*-------------------->DESIGN A<-------------------*/
 .services-design-a__item {
-  background-image: url(../../multimedia/design/a/1.jpg);
+  background-image: url(../../multimedia/design/a/1.webp);
 }
 
 /*-------------------->DESIGN B<-------------------*/
 .services-design-b__item {
-  background-image: url(../../multimedia/design/b/1.jpg);
+  background-image: url(../../multimedia/design/b/1.webp);
 }
 
 /*-------------------->DESIGN C<-------------------*/
 .services-design-c__item {
-  background-image: url(../../multimedia/design/c/1.jpg);
+  background-image: url(../../multimedia/design/c/1.webp);
 }
 
 /*-------------------->DESIGN D<-------------------*/
 .services-design-d__item {
-  background-image: url(../../multimedia/design/d/1.jpg);
+  background-image: url(../../multimedia/design/d/1.webp);
 }
 
 /*----->About page<-----*/
