@@ -1,6 +1,7 @@
 ❌ => Pending to solve
 ✅ => Complete
-🟢 => Task was unnecesary according to changes in process
+🟠 => In process
+🟢 => was unnecesary according to changes in process
 
 - ✅ NavBar non separate from top
 - 🟢 Create hamburguer to access NavBar
@@ -12,4 +13,6 @@
 - ✅ Optimize images
 - 🟢 add division on items in navbar because it looks like a text inline
 - 🟢 a designer friend prefer background blue on navbar
-- ❌ Optimize page according to google chrome developer tools
+- 🟠 Optimize page according to google chrome developer tools
+- ❌ create favicon and review JS coverage in Dev tools
+- ❌ Create own arrows to avoid unnecesary use of fontAwesome because it has a coverage of 51,4%
