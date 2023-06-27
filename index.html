@@ -5,6 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/css/main.css" />
+    <link
+      rel="preload"
+      href="multimedia/painting/1.webp"
+      as="image"
+      media="(max-width: 300px)"
+      type="image/webp"
+    />
+    <link
+      rel="preload"
+      href="multimedia/background/1.webp"
+      as="image"
+      type="image/webp"
+      media="(min-width: 320px)"
+    />
     <script
       src="https://kit.fontawesome.com/41492ee37e.js"
       crossorigin="anonymous"
@@ -43,7 +57,9 @@
             <img
               src="./multimedia/logo.webp"
               alt="logo Diservi"
-              width="250px"
+              width="261px"
+              height="100px"
+              fetchpriotity="high"
             />
             <h1 class="claim">Diseños y Servicios industriales</h1>
             <h1 class="claim">Tu empresa nos necesita</h1>
