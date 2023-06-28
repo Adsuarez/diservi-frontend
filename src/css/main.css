@@ -52,6 +52,19 @@ footer {
   max-width: var(--max-width);
 }
 
+.services-all__item {
+  height: var(--height-images-services);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  transition: background-image 0.7s ease-in-out;
+  margin: 10px;
+}
+
+.services-painting__item {
+  background-image: url(../../multimedia/painting/1.webp);
+}
+
 header {
   width: 100%;
   position: fixed;
@@ -143,19 +156,6 @@ article {
 
 .services-all {
   position: relative;
-}
-
-.services-all__item {
-  height: var(--height-images-services);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-  transition: background-image 0.7s ease-in-out;
-  margin: 10px;
-}
-
-.services-painting__item {
-  background-image: url(../../multimedia/painting/1.webp);
 }
 
 .slideButton {
