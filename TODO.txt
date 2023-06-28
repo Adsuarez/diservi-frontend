@@ -14,5 +14,5 @@
 - 🟢 add division on items in navbar because it looks like a text inline
 - 🟢 a designer friend prefer background blue on navbar
 - 🟠 Optimize page according to google chrome developer tools
-- ❌ create favicon and review JS unused about coverage in Dev tools
-- ❌ Create own arrows to avoid unnecesary use of fontAwesome because it has a coverage of 51,4%
+- ✅ create favicon and review JS unused about coverage in Dev tools
+- 🟢 Create own arrows to avoid unnecesary use of fontAwesome because it has a coverage of 51,4%
