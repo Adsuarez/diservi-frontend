@@ -13,6 +13,21 @@ import {
   servicesPaintingItem,
 } from "./paintingValues.js";
 
+/*PAINTING SERVICE*/
+let paintingIndex = 0;
+
+prevSlideButtonPainting.addEventListener("click", () => {
+  paintingIndex = prevIndex(paintingIndex);
+  paintingIndex = setImageIndex(paintingIndex, paintingMaxIndex);
+  changeBackgroundImage(paintingImages[paintingIndex], servicesPaintingItem);
+});
+
+nextSlideButtonPainting.addEventListener("click", () => {
+  paintingIndex = nextIndex(paintingIndex);
+  paintingIndex = setImageIndex(paintingIndex, paintingMaxIndex);
+  changeBackgroundImage(paintingImages[paintingIndex], servicesPaintingItem);
+});
+
 import {
   nextSlideButtonSoldering,
   prevSlideButtonSoldering,
@@ -68,21 +83,6 @@ import {
   designDImages,
   designDMaxIndex,
 } from "./design_dValues.js";
-
-/*PAINTING SERVICE*/
-let paintingIndex = 0;
-
-prevSlideButtonPainting.addEventListener("click", () => {
-  paintingIndex = prevIndex(paintingIndex);
-  paintingIndex = setImageIndex(paintingIndex, paintingMaxIndex);
-  changeBackgroundImage(paintingImages[paintingIndex], servicesPaintingItem);
-});
-
-nextSlideButtonPainting.addEventListener("click", () => {
-  paintingIndex = nextIndex(paintingIndex);
-  paintingIndex = setImageIndex(paintingIndex, paintingMaxIndex);
-  changeBackgroundImage(paintingImages[paintingIndex], servicesPaintingItem);
-});
 
 /*SOLDERING SERVICE */
 let solderingIndex = 0;
