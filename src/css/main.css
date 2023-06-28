@@ -78,41 +78,6 @@ header {
   margin: 0;
 }
 
-.footer-wrapper {
-  background-color: var(--dark-color-high-opacity);
-}
-
-footer {
-  display: flex;
-  flex-direction: column;
-  background-color: var(--dark-color-high-opacity);
-  color: var(--light-color);
-}
-
-.footer-widget {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  gap: 6px;
-}
-
-.footer-widget h3 {
-  color: var(--accent-color);
-  margin: 0 0 1rem 0;
-}
-
-.footer-widget a,
-.footer-widget p {
-  margin: 0 0 1rem 0;
-  text-align: end;
-}
-
-.footer-widget__phones {
-  display: flex;
-  flex-direction: column;
-}
-
 article {
   display: flex;
   flex-direction: column;
@@ -176,23 +141,6 @@ article {
   margin: 0;
 }
 
-.slideButton {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 2.5rem;
-  cursor: pointer;
-  color: var(--accent-color);
-}
-
-.prevSlide {
-  left: 0.01rem;
-}
-
-.nextSlide {
-  right: 0.01rem;
-}
-
 .services-all {
   position: relative;
 }
@@ -208,6 +156,23 @@ article {
 
 .services-painting__item {
   background-image: url(../../multimedia/painting/1.webp);
+}
+
+.slideButton {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2.5rem;
+  cursor: pointer;
+  color: var(--accent-color);
+}
+
+.prevSlide {
+  left: 0.01rem;
+}
+
+.nextSlide {
+  right: 0.01rem;
 }
 
 .services-soldering__item {
@@ -256,6 +221,41 @@ article {
 
 .service-subdescription {
   margin-left: 40px;
+}
+
+.footer-wrapper {
+  background-color: var(--dark-color-high-opacity);
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--dark-color-high-opacity);
+  color: var(--light-color);
+}
+
+.footer-widget {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 6px;
+}
+
+.footer-widget h3 {
+  color: var(--accent-color);
+  margin: 0 0 1rem 0;
+}
+
+.footer-widget a,
+.footer-widget p {
+  margin: 0 0 1rem 0;
+  text-align: end;
+}
+
+.footer-widget__phones {
+  display: flex;
+  flex-direction: column;
 }
 
 @media screen and (min-width: 620px) {
