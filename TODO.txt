@@ -17,4 +17,4 @@
 - ✅ create favicon and review JS unused about coverage in Dev tools
 - 🟢 Create own arrows to avoid unnecesary use of fontAwesome because it has a coverage of 51,4%
 - ✅ Make page responsive
-- ❌ Deploy page online
+- 🟠 Deploy page online to give feedback from users
