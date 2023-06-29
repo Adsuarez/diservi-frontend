@@ -52,19 +52,6 @@ footer {
   max-width: var(--max-width);
 }
 
-.services-all__item {
-  height: var(--height-images-services);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-  transition: background-image 0.7s ease-in-out;
-  margin: 10px;
-}
-
-.services-painting__item {
-  background-image: url(../../multimedia/painting/1.webp);
-}
-
 header {
   width: 100%;
   position: fixed;
@@ -146,6 +133,7 @@ article {
 .services-title {
   color: var(--contrast-dark-color);
   margin: 0;
+  text-align: center;
 }
 
 .services-subtitle {
@@ -173,6 +161,19 @@ article {
 
 .nextSlide {
   right: 0.01rem;
+}
+
+.services-all__item {
+  height: var(--height-images-services);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  transition: background-image 0.7s ease-in-out;
+  margin: 10px;
+}
+
+.services-painting__item {
+  background-image: url(../../multimedia/painting/1.webp);
 }
 
 .services-soldering__item {
@@ -270,16 +271,31 @@ footer {
 
   .menu-list {
     gap: 30px;
+    justify-content: space-around;
   }
 }
 
 @media screen and (min-width: 800px) {
   footer {
     justify-content: space-around;
-    gap: 50px;
   }
 
   .menu-list {
-    gap: 60px;
+    justify-content: space-around;
+  }
+
+  .services {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: space-around;
+  }
+
+  .services-all {
+    width: 300px;
+  }
+
+  main {
+    background-image: url(../../multimedia/background/full.webp);
   }
 }
