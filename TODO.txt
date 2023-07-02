@@ -2,6 +2,7 @@
 ✅ => Complete
 🟠 => In process
 🟢 => was unnecesary according to changes in process
+❓  => this need more consultant
 
 - ✅ NavBar non separate from top
 - 🟢 Create hamburguer to access NavBar
@@ -19,4 +20,4 @@
 - ✅ Make page responsive
 - 🟠 Deploy page online to give feedback from users
 - ❌ Make more visible the navbar
-- ❌ Fix ortography with comas and colons
+- ❓ Fix ortography with comas and colons
