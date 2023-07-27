@@ -87,8 +87,6 @@ export const multimedia = [
       `${URLS_MULTIMEDIA.design_c}11.webp`,
       `${URLS_MULTIMEDIA.design_c}12.webp`,
       `${URLS_MULTIMEDIA.design_c}13.webp`,
-      `${URLS_MULTIMEDIA.design_c}14.webp`,
-      `${URLS_MULTIMEDIA.design_c}15.webp`,
     ],
   },
   {
